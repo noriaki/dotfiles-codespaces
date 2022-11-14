@@ -1,5 +1,5 @@
-if [[ -s "${HOME}/.zshrc.codespaces" ]]; then
-   source "${HOME}/.zshrc.codespaces"
+if [[ -s "${HOME}/.zshrc.default" ]]; then
+    source "${HOME}/.zshrc.default"
 fi
 
 if [[ -s "${HOME}/.settings/zsh/aliases.zsh" ]]; then

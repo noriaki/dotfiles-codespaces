@@ -1,7 +1,5 @@
-mv "${HOME}/.zshrc" "${HOME}/.zshrc.codespaces"
+mv "${HOME}/.zshrc" "${HOME}/.zshrc.default"
 ln -f -s "${PWD}/.settings" "${HOME}/.settings"
-ln -f -s "${PWD}/.settings/zsh/zshrc" "${HOME}/.zshrc"
+ln -f -s "${HOME}/.settings/zsh/zshrc" "${HOME}/.zshrc"
 
-if [[ -s "${HOME}/.settings/commands/package-install.zsh" ]]; then
-    /bin/zsh "${HOME}/.settings/commands/package-install.zsh"
-fi
+/bin/zsh "${HOME}/.settings/commands/package-install.zsh"
