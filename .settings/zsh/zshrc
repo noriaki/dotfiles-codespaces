@@ -1,4 +1,4 @@
-if [[ -s "${$HOME}/.settings/commands/package-install.zsh" ]]; then
+if [[ -s "${HOME}/.settings/commands/package-install.zsh" ]]; then
     source "${HOME}/.settings/commands/package-install.zsh"
 fi
 
