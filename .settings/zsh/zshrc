@@ -1,5 +1,5 @@
-if [[ -s "${$HOME}/.init/commands/package-install.zsh" ]]; then
-    source "${HOME}/.init/commands/package-install.zsh"
+if [[ -s "${$HOME}/.settings/commands/package-install.zsh" ]]; then
+    source "${HOME}/.settings/commands/package-install.zsh"
 fi
 
 if [[ -s "${HOME}/.zprofile" ]]; then
