@@ -1,3 +1,7 @@
+if [[ -s "${HOME}/.zshrc.codespaces" ]]; then
+   source "${HOME}/.zshrc.codespaces"
+fi
+
 if [[ -s "${HOME}/.settings/commands/package-install.zsh" ]]; then
     source "${HOME}/.settings/commands/package-install.zsh"
 fi

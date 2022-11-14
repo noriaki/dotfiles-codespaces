@@ -1,3 +1,3 @@
-if [[ -s "${HOME}/.settings/zsh/zshrc" ]]; then
-    echo "source \"\${HOME}/.settings/zsh/zshrc\"\n" >> "${HOME}/.zshrc"
-fi
+mv "${HOME}/.zshrc" "${HOME}/.zshrc.codespaces"
+ln -f -s "${PWD}/.settings" "${HOME}/.settings"
+ln -f -s "${PWD}/.settings/zsh/zshrc" "${HOME}/.zshrc"
