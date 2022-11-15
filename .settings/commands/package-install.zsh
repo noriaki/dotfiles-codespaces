@@ -19,3 +19,7 @@ curl -kLs -o _git "https://sourceforge.net/p/zsh/code/ci/master/tree/Completion/
 curl -kLOs https://github.com/bobthecow/git-flow-completion/raw/master/git-flow-completion.bash
 curl -kLOs https://github.com/bobthecow/git-flow-completion/raw/master/git-flow-completion.zsh
 cd -
+
+cd "/usr/share/doc/git/contrib/diff-highlight"
+sudo make
+cd -
