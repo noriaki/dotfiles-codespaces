@@ -15,6 +15,7 @@ if has "apt"; then
 fi
 
 cd "${PWD}/.settings/zsh/completion"
+curl "https://sourceforge.net/p/zsh/code/ci/master/tree/Completion/Unix/Command/_git?format=raw" -o _git
 curl -O https://github.com/bobthecow/git-flow-completion/raw/master/git-flow-completion.bash
 curl -O https://github.com/bobthecow/git-flow-completion/raw/master/git-flow-completion.zsh
 cd -
