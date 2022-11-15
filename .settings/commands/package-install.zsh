@@ -22,5 +22,5 @@ cd -
 
 cd "/usr/share/doc/git/contrib/diff-highlight"
 sudo make
-ln -f -s /usr/share/doc/git/contrib/diff-highlight/diff-highlight /usr/local/bin/diff-highlight
+sudo ln -f -s /usr/share/doc/git/contrib/diff-highlight/diff-highlight /usr/local/bin/diff-highlight
 cd -
