@@ -4,3 +4,4 @@
   path = ~/.settings/git/alias.conf
   path = ~/.settings/git/color.conf
   path = ~/.settings/git/diff.conf
+  path = ~/.settings/git/flow.conf
