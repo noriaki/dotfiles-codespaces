@@ -1,0 +1,5 @@
+[include]
+  path = ~/.settings/git/core.conf
+  path = ~/.settings/git/user.conf
+  path = ~/.settings/git/alias.conf
+  path = ~/.settings/git/color.conf
