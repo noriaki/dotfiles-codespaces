@@ -1,0 +1,12 @@
+# surface
+set vertical-split = true
+set split-view-width = 90
+set main-view = id date author commit-title:graph=yes,refs=yes
+color help-group  magenta  default
+
+# use diff-highlight
+set diff-highlight = true
+
+# push
+bind main U ?git push %(remote) %(repo:head)
+bind main P ?git push %(remote) %(head)
