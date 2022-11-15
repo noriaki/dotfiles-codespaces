@@ -11,4 +11,5 @@ if has "apt"; then
     if ! has "tig"; then
         sudo apt install tig -y
     fi
+    sudo apt install git-flow -y
 fi
