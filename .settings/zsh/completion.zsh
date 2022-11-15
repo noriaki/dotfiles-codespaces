@@ -1,4 +1,5 @@
 fpath=(~/.settings/zsh/completion $fpath)
+source ~/.settings/zsh/completion/git-flow-completion.zsh
 
 # 補完機能有効にする
 autoload -U compinit
