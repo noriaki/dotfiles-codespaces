@@ -13,3 +13,8 @@ if has "apt"; then
     fi
     sudo apt install git-flow -y
 fi
+
+cd "${PWD}/.settings/zsh/completion"
+curl -O https://github.com/bobthecow/git-flow-completion/raw/master/git-flow-completion.bash
+curl -O https://github.com/bobthecow/git-flow-completion/raw/master/git-flow-completion.zsh
+cd -

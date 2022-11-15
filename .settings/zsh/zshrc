@@ -13,3 +13,7 @@ fi
 if [[ -s "${HOME}/.settings/zsh/settings.zsh" ]]; then
     source "${HOME}/.settings/zsh/settings.zsh"
 fi
+
+#if [[ -s "${HOME}/.settings/zsh/completion.zsh" ]]; then
+#    source "${HOME}/.settings/zsh/completion.zsh"
+#fi
