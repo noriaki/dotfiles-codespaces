@@ -5,5 +5,4 @@ ln -f -s "${HOME}/.settings/git/config" "${HOME}/.gitconfig"
 ln -f -s "${HOME}/.settings/tig/config" "${HOME}/.tigrc"
 
 /bin/zsh "${HOME}/.settings/commands/package-install.zsh"
-echo "PWD:  ${PWD}"
-echo "HOME: ${HOME}"
+/bin/zsh "${HOME}/.settings/git/flow-init.zsh"
